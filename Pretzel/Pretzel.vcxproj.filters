@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pretzel">
+      <UniqueIdentifier>{AB0C4423-17EC-C2BE-2004-4E958C622920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pretzel\Events">
+      <UniqueIdentifier>{2F6A2D00-1B38-2106-04CC-912CF038FD6A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Pretzel.h" />
+    <ClInclude Include="src\Pretzel\Application.h">
+      <Filter>Pretzel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pretzel\Core.h">
+      <Filter>Pretzel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pretzel\EntryPoint.h">
+      <Filter>Pretzel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pretzel\Events\ApplicationEvent.h">
+      <Filter>Pretzel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pretzel\Events\Event.h">
+      <Filter>Pretzel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pretzel\Events\KeyEvent.h">
+      <Filter>Pretzel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pretzel\Events\MouseEvent.h">
+      <Filter>Pretzel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pretzel\Log.h">
+      <Filter>Pretzel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Pretzel\Application.cpp">
+      <Filter>Pretzel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pretzel\Log.cpp">
+      <Filter>Pretzel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

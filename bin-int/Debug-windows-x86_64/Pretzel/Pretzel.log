@@ -1,0 +1,7 @@
+﻿  Application.cpp
+C:\Dev\Pretzel\Pretzel\src\Pretzel\Log.h(20,42): warning C4251: 'Pretzel::Log::coreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Pretzel::Log'
+C:\Dev\Pretzel\Pretzel\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Dev\Pretzel\Pretzel\src\Pretzel\Log.h(21,42): warning C4251: 'Pretzel::Log::clientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Pretzel::Log'
+C:\Dev\Pretzel\Pretzel\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+     Creating library ..\bin\Debug-windows-x86_64\Pretzel\Pretzel.lib and object ..\bin\Debug-windows-x86_64\Pretzel\Pretzel.exp
+  Pretzel.vcxproj -> C:\Dev\Pretzel\bin\Debug-windows-x86_64\Pretzel\Pretzel.dll
